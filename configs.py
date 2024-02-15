@@ -40,7 +40,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "1d6666d32848a6878c191167a491205d")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","6616482285:AAEwyfKOk0QM5gXCXySrMc8x6weIw0GuYz8")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "Brook_V3_probot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "1838078113"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1838078113"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1425888381"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://allmoviesarehere:allmoviesarehere@cluster0.4pcf4u7.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002121447195")
